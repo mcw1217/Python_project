@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사</title>
+</head>
+<body>
+    <form action="/survey_ans" method="POST">
+        성별을 선택해주세요!
+        <br>
+        남자<input type="radio" name="gender" value="Male">
+        여자<input type="radio" name="gender" value="Female">
+        <br>
+        <br>
+        나이를 적어주세요!
+        <br> 
+        나이: <input type="input" name="age">
+        <br>
+        <br>
+        다뇨증이 있으신가요?
+        <br>
+        예<input type="radio" name="a" value="Yes">
+        아니오<input type="radio" name="a" value="No">
+        <br>
+        <br>
+        다갈증이 있으신가요?
+        <br>
+        예<input type="radio" name="b" value="Yes">
+        아니오<input type="radio" name="b" value="No">
+        <br>
+        <br>
+        최근에 체중이 급격하게 감소되었나요?
+        <br>
+        예<input type="radio" name="c" value="Yes">
+        아니오<input type="radio" name="c" value="No">
+        <br>
+        <br>
+        최근에 몸이 약해졌다는게 느껴지시나요?
+        <br>
+        예<input type="radio" name="d" value="Yes">
+        아니오<input type="radio" name="d" value="No">
+        <br>
+        <br>
+        다식증이 있으신가요?
+        <br>
+        예<input type="radio" name="e" value="Yes">
+        아니오<input type="radio" name="e" value="No">
+        <br>
+        <br>
+        질효모감염증( 질의 발적, 가려움, 통징, 흰색의 질 분비물이 일어나는 증상 )
+        <br>
+        예<input type="radio" name="f" value="Yes">
+        아니오<input type="radio" name="f" value="No">
+        <br>
+        <br>
+        최근에 시야가 흐려지는 현상이 있으신가요?
+        <br>
+        예<input type="radio" name="g" value="Yes">
+        아니오<input type="radio" name="g" value="No">
+        <br>
+        <br>
+        최근에 자주 가려움증을 느끼시나요?
+        <br>
+        예<input type="radio" name="h" value="Yes">
+        아니오<input type="radio" name="h" value="No">
+        <br>
+        <br>
+        쉽게 화를 내고 성격이 급한가요?
+        <br>
+        예<input type="radio" name="i" value="Yes">
+        아니오<input type="radio" name="i" value="No">
+        <br>
+        <br>
+        상처나 부상을 당했을 때 회복이 늦어지나요?
+        <br>
+        예<input type="radio" name="j" value="Yes">
+        아니오<input type="radio" name="j" value="No">
+        <br>
+        <br>
+        신체에 부분 마비 증상이 있나요?
+        <br>
+        예<input type="radio" name="k" value="Yes">
+        아니오<input type="radio" name="k" value="No">
+        <br>
+        <br>
+        최근에 근육에 경직이 온적이 있나요?
+        <br>
+        예<input type="radio" name="l" value="Yes">
+        아니오<input type="radio" name="l" value="No">
+        <br>
+        <br>
+        최근에 머리가 많이 빠지거나 탈모증상이 나타나고 있나요?
+        <br>
+        예<input type="radio" name="m" value="Yes">
+        아니오<input type="radio" name="m" value="No">
+        <br>
+        <br>
+        현재 체중이 비만이신가요?
+        <br>
+        예<input type="radio" name="n" value="Yes">
+        아니오<input type="radio" name="n" value="No">
+        <br>
+        <br> 
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>
