@@ -5,8 +5,8 @@ import bcrypt
 from app001.routes import app
 
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'moon1217@@'
+app.config['MYSQL_USER'] = 'test'
+app.config['MYSQL_PASSWORD'] = '1234'
 app.config['MYSQL_DB'] = 'pythondb'
 app.config['MYSQL_PORT'] = 3306
 
