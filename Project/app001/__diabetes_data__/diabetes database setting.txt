@@ -1,0 +1,21 @@
+
+
+1. database 생성
+CREATE DATABASE IF NOT EXISTS `pythondb` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+2.database 접속
+USE `pythondb`;
+
+3.table 생성
+CREATE TABLE IF NOT EXISTS `accounts` (
+	`id` int(11) NOT NULL AUTO_INCREMENT,
+  	`username` varchar(50) NOT NULL,
+	`email` varchar(50) NOT NULL,
+  	`password` varchar(100) NOT NULL,
+	`fromip` varchar(20),
+	`remark1` varchar(50),
+	`regdate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+
