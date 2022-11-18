@@ -7,7 +7,7 @@
     <title>설문조사</title>
 </head>
 <body>
-    <form action="/survey_ans" method="POST">
+    <form action="{{ url_for('survey_ans')}}" method="POST">
         성별을 선택해주세요!
         <br>
         남자<input type="radio" name="gender" value="Male">

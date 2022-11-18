@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Home Page</h2>
+<p>{{ username }}님 당뇨병 초기진단을 시작하시겠습니까?</p>
+<form action="{{ url_for('survey')}}", method="POST">
+  <input class="home_submit" type=submit value="진단 시작">
+</form>
+{% endblock %}
