@@ -41,7 +41,7 @@ class User():
         # bcrypt hash transfer
         password = (bcrypt.hashpw(password.encode('UTF-8'), bcrypt.gensalt())).decode('utf-8')
         cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
-        cursor.execute("INSERT INTO accounts (username, password, email) VALUES (%s, %s, %s)", (username, password, email))
+        cursor.execute("INSERT INTO accounts (username, password, email, role) VALUES (%s, %s, %s,%s)", (username, password, email,"일반 회원"))
         mysql.connection.commit()
         
     def check_username_exist(username):
