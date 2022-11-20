@@ -4,3 +4,4 @@ Gender,Polyuria,Polydipsia,sudden weight loss,weakness,Polyphagia,Genital thrush
 
 https://ko.wikipedia.org/wiki/%EC%A7%88%ED%9A%A8%EB%AA%A8%EA%B0%90%EC%97%BC%EC%A6%9D
 (질효모감염증) 질의 발적, 가려움, 통증, 흰색의 질 분비물 등의 증상이 있다.
+내용
